@@ -294,3 +294,74 @@ Before submitting, confirm:
 - Every `amount_safe_to_pay` satisfies `0 <= amount_safe_to_pay <= requested_amount`.
 - Every installment plan matches a supplied payment option, and every spending change targets a flexible recurring expense.
 - Your runnable code, setup instructions, and `evaluation/` folder are included in `code.zip`.
+
+
+## Phase 3 — Cash-flow simulation only
+
+Run the timing experiments and generate all 25 sample baseline diagnostics:
+
+```bash
+python3 -m evaluation.run_timing_experiments
+python3 -m unittest discover -s tests -v
+python3 -m compileall -q src tests evaluation code/main.py
+git diff --check
+```
+
+The evaluation command supports `--dataset-root PATH` and `--output-dir PATH`;
+`DATASET_ROOT` also remains supported. It writes
+`evaluation/phase3_timing_experiments.json`, `phase3_timing_report.md`, and
+`phase3_simulation_diagnostics.json`. It reads supplied label payments as probes;
+it does not generate recommendations or an output CSV.
+
+Ownership:
+
+- `src/forecast/simulation_models.py`: immutable cashflows, supplied candidate
+  payments, spending effects, timing flags and ledger results.
+- `src/forecast/timeline.py`: the inclusive D–D+90 horizon, source ordering and
+  exact-date FX selection.
+- `src/forecast/income.py` / `expenses.py`: credit/debit gates, final-payroll
+  continuation guard, and validation/application of supplied spending changes.
+- `src/forecast/preparation.py`: Phase 2 projections, explicit future records,
+  narrow linked-lifecycle deduplication and explicit/projection reconciliation.
+- `src/forecast/simulator.py`: balance application, safety and optional JSON trace.
+- `evaluation/sample_timing_context.py`: reviewed sample-message confounders only;
+  production modules do not import evaluation code.
+
+Example (all values come from loaded data; no global simulator state):
+
+```python
+from src.data.loader import load_all_data
+from src.data.indexes import build_indexes
+from src.data.currency import CurrencyConverter
+from src.forecast.preparation import prepare_forecast
+from src.forecast.simulator import simulate, trace_json
+
+data = load_all_data()
+indexes = build_indexes(data)
+request = data.sample_requests[0]
+prepared = prepare_forecast(indexes, request.user_id, request.request_date)
+result = simulate(
+    indexes.profile_by_user_id[request.user_id], request.request_date,
+    prepared.recurring_occurrences, prepared.explicit_occurrences,
+    currency_converter=CurrencyConverter(data.exchange_rates),
+    unresolved_sources=prepared.unresolved_sources,
+    diagnostics=prepared.diagnostics,
+)
+# Optional debugging: print(trace_json(result))
+```
+
+Candidate payments are externally supplied `CandidatePayment(date, Decimal(...),
+source)` values in the user's home currency. Spending changes are externally
+supplied `SpendingChangeEffect(target_id, from_date, 'stop')` or `'reduce_to'` with
+`new_amount` in the target's currency. They must target an allowed recurring debit;
+protected categories, user preferences, source flexibility and reduction floors
+are enforced. Unmatched/overlapping modifications and payments outside the horizon
+raise errors rather than silently dropping parts of a proposal.
+
+Safety includes opening and intermediate balances, not only daily closings.
+`result.safe` concerns only the supplied flows and never decides request
+affordability. Missing structured future amounts set `complete=False` and
+`safe=False`; reported minima then cover known flows only. Semantic message/image
+completeness remains unresolved. Exact missing FX raises an exception. The selected
+recurrence and timing defaults are provisional; see the generated report for
+conditional evidence and unresolved Phase 4+ questions.

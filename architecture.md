@@ -973,14 +973,23 @@ future_event_date_source = event_date | settlement_date
 
 Run both policies through the same production simulator against the 25 labeled examples.
 
-Measure:
-- safe amount error,
-- earliest-date match,
-- status match,
-- payment-plan match.
+Phase 3 measurement boundary (clarified by the Phase 3 implementation request):
+apply payments and dates already supplied in the labels as exogenous safety probes.
+Measure intermediate/closing balance differences and conditional safety flips.
+Do not calculate safe amounts, search earliest dates, generate plans, or score
+status/plan decisions before the corresponding Phase 4+ components exist.
+Those later phases can measure safe-amount error, earliest-date match, status
+match and payment-plan match.
+
+Evidence: `evaluation/phase3_timing_experiments.json` and
+`evaluation/phase3_timing_report.md` record 36 supplied probes, 13 requests with
+same-day numerical sensitivity, seven conditional safety flips, and four reviewed
+cases partially supporting cashflows first. Twelve future rows have differing
+event/settlement dates; nine baseline ledgers change but no supplied probe flips
+safety. These findings do not uniquely identify either timing policy.
 
 After calibration:
-- freeze winning behavior,
+- retain an explicit provisional default when no unique winner exists,
 - document whether labels actually disambiguated it,
 - remove the temporary ambiguity or leave the selected value as a fixed config default.
 
@@ -1935,6 +1944,27 @@ Simulator must be:
 - traceable,
 - day-based,
 - independent of row order.
+
+Phase 3 implementation notes (evidence: the timing report and
+`evaluation/phase3_simulation_diagnostics.json`):
+
+- The horizon is 91 inclusive dates, D through D+90. Opening and intermediate
+  block balances count for safety; ties in the minimum use the earliest date.
+- Default normal ordering is aggregate credits, aggregate debits, then candidate
+  payments. Candidate-first remains a calibration flag. Default explicit cash
+  date is settlement date, falling back to event date; overdue debits reserve on D.
+- Exact supplied FX remains unchanged. Explicit rows use settlement FX dates even
+  under the event-date timing experiment; recurrence uses its projected date.
+  All sample foreign flows have exact rates, but unsupplied future dates still fail.
+- Missing future amounts produce incomplete known-flow traces, never zero-valued
+  obligations or a safe result. Visible examples are event_1442 and event_1786;
+  resolving their evidence is deferred. No capacity fallback is implemented here.
+- Historical salary projections remain provisional. A later settled final-payroll
+  marker suppresses continuation of older salary history in preparation, separate
+  from the Phase 2 estimator (sample event_390). Arbitrary scheduled credits are
+  excluded; all 47 supplied scheduled credits explicitly say “Next confirmed salary”.
+- No message or image extraction occurs. Evaluation-only message-review metadata
+  distinguishes already-covered exclusions from unapplied future amendments.
 
 ## Tests
 

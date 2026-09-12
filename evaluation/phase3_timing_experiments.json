@@ -1,0 +1,3903 @@
+{
+  "event_date": {
+    "cases": [
+      {
+        "baseline_difference": {
+          "changed_dates": [
+            "2024-03-03",
+            "2024-03-04"
+          ],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "567.6",
+          "max_daily_minimum_balance_difference": "567.6",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_102"
+        ],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "26397.92",
+          "minimum_projected_balance_date": "2024-06-01",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [
+                "2024-03-03",
+                "2024-03-04"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "567.6",
+              "max_daily_minimum_balance_difference": "567.6",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2024-05-02",
+              "minimum_projected_balance": "1141.92",
+              "minimum_projected_balance_date": "2024-06-01",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2024-05-02",
+              "minimum_projected_balance": "1141.92",
+              "minimum_projected_balance_date": "2024-06-01",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [
+                "2024-03-03",
+                "2024-03-04"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "567.6",
+              "max_daily_minimum_balance_difference": "567.6",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2024-05-02",
+              "minimum_projected_balance": "1141.92",
+              "minimum_projected_balance_date": "2024-06-01",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2024-05-02",
+              "minimum_projected_balance": "1141.92",
+              "minimum_projected_balance_date": "2024-06-01",
+              "safe_for_supplied_flows": false
+            }
+          }
+        ],
+        "request_id": "request_01",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "26397.92",
+          "minimum_projected_balance_date": "2024-06-01",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [
+            "2025-08-05",
+            "2025-08-06",
+            "2025-08-07"
+          ],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "1651100.0",
+          "max_daily_minimum_balance_difference": "1651100.0",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_185"
+        ],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "47227984.88",
+          "minimum_projected_balance_date": "2025-08-13",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [
+                "2025-08-05",
+                "2025-08-06",
+                "2025-08-07"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "1651100.0",
+              "max_daily_minimum_balance_difference": "1651100.0",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2025-09-09",
+              "minimum_projected_balance": "19121986.83",
+              "minimum_projected_balance_date": "2025-10-13",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2025-09-09",
+              "minimum_projected_balance": "19121986.83",
+              "minimum_projected_balance_date": "2025-10-13",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [
+                "2025-08-05",
+                "2025-08-06",
+                "2025-08-07"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "1651100.0",
+              "max_daily_minimum_balance_difference": "1651100.0",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2025-10-08",
+              "minimum_projected_balance": "20962706.84",
+              "minimum_projected_balance_date": "2025-10-13",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2025-10-08",
+              "minimum_projected_balance": "20962706.84",
+              "minimum_projected_balance_date": "2025-10-13",
+              "safe_for_supplied_flows": false
+            }
+          }
+        ],
+        "request_id": "request_02",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "47227984.88",
+          "minimum_projected_balance_date": "2025-08-13",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [
+            "2019-09-03",
+            "2019-09-04",
+            "2019-09-05",
+            "2019-09-06"
+          ],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "95000",
+          "max_daily_minimum_balance_difference": "95000",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_254"
+        ],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "3611183.15",
+          "minimum_projected_balance_date": "2019-09-14",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [
+                "2019-09-03",
+                "2019-09-04",
+                "2019-09-05",
+                "2019-09-06"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "95000",
+              "max_daily_minimum_balance_difference": "95000",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "3611183.15",
+              "minimum_projected_balance_date": "2019-09-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "3611183.15",
+              "minimum_projected_balance_date": "2019-09-14",
+              "safe_for_supplied_flows": true
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [
+                "2019-09-03",
+                "2019-09-04",
+                "2019-09-05",
+                "2019-09-06"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "95000",
+              "max_daily_minimum_balance_difference": "95000",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "3611183.15",
+              "minimum_projected_balance_date": "2019-09-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "3611183.15",
+              "minimum_projected_balance_date": "2019-09-14",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_03",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "3611183.15",
+          "minimum_projected_balance_date": "2019-09-14",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [
+            "2024-06-04",
+            "2024-06-05",
+            "2024-06-06",
+            "2024-06-07",
+            "2024-06-08",
+            "2024-06-09",
+            "2024-06-10"
+          ],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "1704300",
+          "max_daily_minimum_balance_difference": "1704300",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_357"
+        ],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "41284145.71",
+          "minimum_projected_balance_date": "2024-06-13",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [
+                "2024-06-04",
+                "2024-06-05",
+                "2024-06-06",
+                "2024-06-07",
+                "2024-06-08",
+                "2024-06-09",
+                "2024-06-10"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "1704300",
+              "max_daily_minimum_balance_difference": "1704300",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "33819177.50",
+              "minimum_projected_balance_date": "2024-07-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "33819177.50",
+              "minimum_projected_balance_date": "2024-07-14",
+              "safe_for_supplied_flows": true
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [
+                "2024-06-04",
+                "2024-06-05",
+                "2024-06-06",
+                "2024-06-07",
+                "2024-06-08",
+                "2024-06-09",
+                "2024-06-10"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "1704300",
+              "max_daily_minimum_balance_difference": "1704300",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "33819177.50",
+              "minimum_projected_balance_date": "2024-07-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "33819177.50",
+              "minimum_projected_balance_date": "2024-07-14",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_04",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "41284145.71",
+          "minimum_projected_balance_date": "2024-06-13",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": "2026-02-02",
+          "minimum_projected_balance": "7976.11",
+          "minimum_projected_balance_date": "2026-02-04",
+          "safe_for_supplied_flows": false
+        },
+        "probes": [],
+        "request_id": "request_05",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": "2026-02-02",
+          "minimum_projected_balance": "7976.11",
+          "minimum_projected_balance_date": "2026-02-04",
+          "safe_for_supplied_flows": false
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1324.55",
+          "minimum_projected_balance_date": "2026-01-13",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2026-01-11",
+              "minimum_projected_balance": "704.15",
+              "minimum_projected_balance_date": "2026-01-13",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2026-01-11",
+              "minimum_projected_balance": "704.15",
+              "minimum_projected_balance_date": "2026-01-13",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "1069.25",
+              "minimum_projected_balance_date": "2026-02-13",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "1069.25",
+              "minimum_projected_balance_date": "2026-02-13",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_06",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1324.55",
+          "minimum_projected_balance_date": "2026-01-13",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "188809.06",
+          "minimum_projected_balance_date": "2024-09-13",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "111822.10",
+              "minimum_projected_balance_date": "2024-10-13",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "111822.10",
+              "minimum_projected_balance_date": "2024-10-13",
+              "safe_for_supplied_flows": true
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "120210.34",
+              "minimum_projected_balance_date": "2024-11-13",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "120210.34",
+              "minimum_projected_balance_date": "2024-11-13",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_07",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "188809.06",
+          "minimum_projected_balance_date": "2024-09-13",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1035.78",
+          "minimum_projected_balance_date": "2025-04-12",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2025-05-01",
+              "minimum_projected_balance": "227.41",
+              "minimum_projected_balance_date": "2025-05-08",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2025-05-01",
+              "minimum_projected_balance": "227.41",
+              "minimum_projected_balance_date": "2025-05-08",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2025-05-01",
+              "minimum_projected_balance": "227.41",
+              "minimum_projected_balance_date": "2025-05-08",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2025-05-01",
+              "minimum_projected_balance": "227.41",
+              "minimum_projected_balance_date": "2025-05-08",
+              "safe_for_supplied_flows": false
+            }
+          }
+        ],
+        "request_id": "request_08",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1035.78",
+          "minimum_projected_balance_date": "2025-04-12",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.0",
+          "max_daily_minimum_balance_difference": "0.0",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "622.26",
+          "minimum_projected_balance_date": "2026-10-02",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2026-10-02",
+              "minimum_projected_balance": "455.65",
+              "minimum_projected_balance_date": "2026-10-02",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2026-10-02",
+              "minimum_projected_balance": "455.65",
+              "minimum_projected_balance_date": "2026-10-02",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2026-10-02",
+              "minimum_projected_balance": "455.65",
+              "minimum_projected_balance_date": "2026-10-02",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2026-10-02",
+              "minimum_projected_balance": "455.65",
+              "minimum_projected_balance_date": "2026-10-02",
+              "safe_for_supplied_flows": false
+            }
+          }
+        ],
+        "request_id": "request_09",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "622.26",
+          "minimum_projected_balance_date": "2026-10-02",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": "2025-03-03",
+          "minimum_projected_balance": "197797.36",
+          "minimum_projected_balance_date": "2025-03-06",
+          "safe_for_supplied_flows": false
+        },
+        "probes": [],
+        "request_id": "request_10",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": "2025-03-03",
+          "minimum_projected_balance": "197797.36",
+          "minimum_projected_balance_date": "2025-03-06",
+          "safe_for_supplied_flows": false
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "0",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "46519205.15",
+          "minimum_projected_balance_date": "2025-05-14",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0",
+              "max_daily_minimum_balance_difference": "0",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2025-05-14",
+              "minimum_projected_balance": "33409205.15",
+              "minimum_projected_balance_date": "2025-05-14",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2025-05-14",
+              "minimum_projected_balance": "33409205.15",
+              "minimum_projected_balance_date": "2025-05-14",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0",
+              "max_daily_minimum_balance_difference": "0",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "46519205.15",
+              "minimum_projected_balance_date": "2025-05-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "46519205.15",
+              "minimum_projected_balance_date": "2025-05-14",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_11",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "46519205.15",
+          "minimum_projected_balance_date": "2025-05-14",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "101447.70",
+          "minimum_projected_balance_date": "2026-07-01",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2026-07-01",
+              "minimum_projected_balance": "33677.13",
+              "minimum_projected_balance_date": "2026-07-01",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2026-07-01",
+              "minimum_projected_balance": "33677.13",
+              "minimum_projected_balance_date": "2026-07-01",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2026-07-01",
+              "minimum_projected_balance": "36283.70",
+              "minimum_projected_balance_date": "2026-07-01",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2026-07-01",
+              "minimum_projected_balance": "36283.70",
+              "minimum_projected_balance_date": "2026-07-01",
+              "safe_for_supplied_flows": false
+            }
+          }
+        ],
+        "request_id": "request_12",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "101447.70",
+          "minimum_projected_balance_date": "2026-07-01",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1908.47",
+          "minimum_projected_balance_date": "2024-05-14",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2024-06-04",
+              "minimum_projected_balance": "1175.69",
+              "minimum_projected_balance_date": "2024-06-05",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2024-06-04",
+              "minimum_projected_balance": "1175.69",
+              "minimum_projected_balance_date": "2024-06-05",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2024-06-04",
+              "minimum_projected_balance": "1175.69",
+              "minimum_projected_balance_date": "2024-06-05",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2024-06-04",
+              "minimum_projected_balance": "1175.69",
+              "minimum_projected_balance_date": "2024-06-05",
+              "safe_for_supplied_flows": false
+            }
+          }
+        ],
+        "request_id": "request_13",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1908.47",
+          "minimum_projected_balance_date": "2024-05-14",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": "2025-09-03",
+          "minimum_projected_balance": "-2005.23",
+          "minimum_projected_balance_date": "2025-11-02",
+          "safe_for_supplied_flows": false
+        },
+        "probes": [],
+        "request_id": "request_14",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": "2025-09-03",
+          "minimum_projected_balance": "-2005.23",
+          "minimum_projected_balance_date": "2025-11-02",
+          "safe_for_supplied_flows": false
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": "2026-01-15",
+          "minimum_projected_balance": "-2122.13",
+          "minimum_projected_balance_date": "2026-04-04",
+          "safe_for_supplied_flows": false
+        },
+        "probes": [],
+        "request_id": "request_15",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": "2026-01-15",
+          "minimum_projected_balance": "-2122.13",
+          "minimum_projected_balance_date": "2026-04-04",
+          "safe_for_supplied_flows": false
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "0",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_1442"
+        ],
+        "event_date": {
+          "complete": false,
+          "first_violation_date": null,
+          "minimum_projected_balance": "362370",
+          "minimum_projected_balance_date": "2023-08-12",
+          "safe_for_supplied_flows": false
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0",
+              "max_daily_closing_balance_difference": "0",
+              "max_daily_minimum_balance_difference": "0",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": false,
+              "first_violation_date": null,
+              "minimum_projected_balance": "239870",
+              "minimum_projected_balance_date": "2023-08-12",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": false,
+              "first_violation_date": null,
+              "minimum_projected_balance": "239870",
+              "minimum_projected_balance_date": "2023-08-12",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0",
+              "max_daily_closing_balance_difference": "0",
+              "max_daily_minimum_balance_difference": "0",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": false,
+              "first_violation_date": null,
+              "minimum_projected_balance": "239870",
+              "minimum_projected_balance_date": "2023-08-12",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": false,
+              "first_violation_date": null,
+              "minimum_projected_balance": "239870",
+              "minimum_projected_balance_date": "2023-08-12",
+              "safe_for_supplied_flows": false
+            }
+          }
+        ],
+        "request_id": "request_16",
+        "settlement_date": {
+          "complete": false,
+          "first_violation_date": null,
+          "minimum_projected_balance": "362370",
+          "minimum_projected_balance_date": "2023-08-12",
+          "safe_for_supplied_flows": false
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "408239.81",
+          "minimum_projected_balance_date": "2026-03-14",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "179554.22",
+              "minimum_projected_balance_date": "2026-05-13",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "179554.22",
+              "minimum_projected_balance_date": "2026-05-13",
+              "safe_for_supplied_flows": true
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2026-04-11",
+              "minimum_projected_balance": "162089.02",
+              "minimum_projected_balance_date": "2026-04-13",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2026-04-11",
+              "minimum_projected_balance": "162089.02",
+              "minimum_projected_balance_date": "2026-04-13",
+              "safe_for_supplied_flows": false
+            }
+          }
+        ],
+        "request_id": "request_17",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "408239.81",
+          "minimum_projected_balance_date": "2026-03-14",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1947.76",
+          "minimum_projected_balance_date": "2026-07-14",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "1947.76",
+              "minimum_projected_balance_date": "2026-07-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "1947.76",
+              "minimum_projected_balance_date": "2026-07-14",
+              "safe_for_supplied_flows": true
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "1947.76",
+              "minimum_projected_balance_date": "2026-07-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "1947.76",
+              "minimum_projected_balance_date": "2026-07-14",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_18",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1947.76",
+          "minimum_projected_balance_date": "2026-07-14",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "118279.31",
+          "minimum_projected_balance_date": "2024-09-14",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": "2024-09-14",
+              "minimum_projected_balance": "89459.31",
+              "minimum_projected_balance_date": "2024-09-14",
+              "safe_for_supplied_flows": false
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": "2024-09-14",
+              "minimum_projected_balance": "89459.31",
+              "minimum_projected_balance_date": "2024-09-14",
+              "safe_for_supplied_flows": false
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "0.00",
+              "max_daily_minimum_balance_difference": "0.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "103381.01",
+              "minimum_projected_balance_date": "2024-10-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "103381.01",
+              "minimum_projected_balance_date": "2024-10-14",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_19",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "118279.31",
+          "minimum_projected_balance_date": "2024-09-14",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [
+            "2026-02-07"
+          ],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "4470.00",
+          "max_daily_minimum_balance_difference": "4470.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_1785",
+          "event_1786",
+          "event_1787"
+        ],
+        "event_date": {
+          "complete": false,
+          "first_violation_date": null,
+          "minimum_projected_balance": "73793.25",
+          "minimum_projected_balance_date": "2026-02-13",
+          "safe_for_supplied_flows": false
+        },
+        "probes": [],
+        "request_id": "request_20",
+        "settlement_date": {
+          "complete": false,
+          "first_violation_date": null,
+          "minimum_projected_balance": "73793.25",
+          "minimum_projected_balance_date": "2026-02-13",
+          "safe_for_supplied_flows": false
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [
+            "2026-04-03",
+            "2026-04-04"
+          ],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "53.00",
+          "max_daily_minimum_balance_difference": "53.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_1857"
+        ],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "3475.15",
+          "minimum_projected_balance_date": "2026-04-12",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [
+                "2026-04-03",
+                "2026-04-04"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "53.00",
+              "max_daily_minimum_balance_difference": "53.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "1900.75",
+              "minimum_projected_balance_date": "2026-04-12",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "1900.75",
+              "minimum_projected_balance_date": "2026-04-12",
+              "safe_for_supplied_flows": true
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [
+                "2026-04-03",
+                "2026-04-04"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "53.00",
+              "max_daily_minimum_balance_difference": "53.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "2625.85",
+              "minimum_projected_balance_date": "2026-05-12",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "2625.85",
+              "minimum_projected_balance_date": "2026-05-12",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_21",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "3475.15",
+          "minimum_projected_balance_date": "2026-04-12",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [
+            "2024-12-05",
+            "2024-12-06",
+            "2024-12-07"
+          ],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "43.00",
+          "max_daily_minimum_balance_difference": "43.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_1961"
+        ],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "963.85",
+          "minimum_projected_balance_date": "2024-12-14",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [
+                "2024-12-05",
+                "2024-12-06",
+                "2024-12-07"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "43.00",
+              "max_daily_minimum_balance_difference": "43.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "527.24",
+              "minimum_projected_balance_date": "2025-02-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "527.24",
+              "minimum_projected_balance_date": "2025-02-14",
+              "safe_for_supplied_flows": true
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [
+                "2024-12-05",
+                "2024-12-06",
+                "2024-12-07"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "43.00",
+              "max_daily_minimum_balance_difference": "43.00",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "556.51",
+              "minimum_projected_balance_date": "2025-02-14",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "556.51",
+              "minimum_projected_balance_date": "2025-02-14",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_22",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "963.85",
+          "minimum_projected_balance_date": "2024-12-14",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [
+            "2025-05-07",
+            "2025-05-08",
+            "2025-05-09",
+            "2025-05-10"
+          ],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "1553.20",
+          "max_daily_minimum_balance_difference": "1553.20",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_2042"
+        ],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "35731.85",
+          "minimum_projected_balance_date": "2025-05-14",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [
+          {
+            "difference": {
+              "changed_dates": [
+                "2025-05-07",
+                "2025-05-08",
+                "2025-05-09",
+                "2025-05-10"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "1553.20",
+              "max_daily_minimum_balance_difference": "1553.20",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "30791.79",
+              "minimum_projected_balance_date": "2025-08-04",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_plan",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "30791.79",
+              "minimum_projected_balance_date": "2025-08-04",
+              "safe_for_supplied_flows": true
+            }
+          },
+          {
+            "difference": {
+              "changed_dates": [
+                "2025-05-07",
+                "2025-05-08",
+                "2025-05-09",
+                "2025-05-10"
+              ],
+              "horizon_minimum_difference": "0.00",
+              "max_daily_closing_balance_difference": "1553.20",
+              "max_daily_minimum_balance_difference": "1553.20",
+              "safety_differs": false
+            },
+            "event_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "30791.79",
+              "minimum_projected_balance_date": "2025-08-04",
+              "safe_for_supplied_flows": true
+            },
+            "probe": "supplied_full_payment_date",
+            "settlement_date": {
+              "complete": true,
+              "first_violation_date": null,
+              "minimum_projected_balance": "30791.79",
+              "minimum_projected_balance_date": "2025-08-04",
+              "safe_for_supplied_flows": true
+            }
+          }
+        ],
+        "request_id": "request_23",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "35731.85",
+          "minimum_projected_balance_date": "2025-05-14",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [
+            "2026-01-04",
+            "2026-01-05",
+            "2026-01-06",
+            "2026-01-07",
+            "2026-01-08",
+            "2026-01-09",
+            "2026-01-10"
+          ],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "1830",
+          "max_daily_minimum_balance_difference": "1830",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [
+          "event_2166"
+        ],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "64599.65",
+          "minimum_projected_balance_date": "2026-01-13",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [],
+        "request_id": "request_24",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "64599.65",
+          "minimum_projected_balance_date": "2026-01-13",
+          "safe_for_supplied_flows": true
+        }
+      },
+      {
+        "baseline_difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "dated_future_event_ids": [],
+        "event_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "23668696.15",
+          "minimum_projected_balance_date": "2024-03-14",
+          "safe_for_supplied_flows": true
+        },
+        "probes": [],
+        "request_id": "request_25",
+        "settlement_date": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "23668696.15",
+          "minimum_projected_balance_date": "2024-03-14",
+          "safe_for_supplied_flows": true
+        }
+      }
+    ],
+    "conditional_label_probe_safety_flip_count": 0,
+    "conditional_label_probe_safety_flip_request_ids": [],
+    "labels_establishing_policy_count": 0,
+    "numerically_sensitive_count": 9,
+    "numerically_sensitive_request_ids": [
+      "request_01",
+      "request_02",
+      "request_03",
+      "request_04",
+      "request_20",
+      "request_21",
+      "request_22",
+      "request_23",
+      "request_24"
+    ],
+    "policies": [
+      "event_date",
+      "settlement_date"
+    ],
+    "selected_default": "settlement_date",
+    "strength_of_evidence": "not disambiguated by visible labels; settlement aligns with stated cash/FX semantics",
+    "visible_future_events_with_different_dates": 12
+  },
+  "fx": {
+    "date_coverage": [
+      {
+        "first_date": "2024-04-15",
+        "from_currency": "EUR",
+        "last_date": "2026-09-15",
+        "row_count": 24,
+        "to_currency": "USD",
+        "unique_rates": [
+          "1.09"
+        ]
+      },
+      {
+        "first_date": "2023-10-15",
+        "from_currency": "EUR",
+        "last_date": "2026-01-15",
+        "row_count": 22,
+        "to_currency": "ZAR",
+        "unique_rates": [
+          "20"
+        ]
+      },
+      {
+        "first_date": "2023-10-15",
+        "from_currency": "USD",
+        "last_date": "2026-03-15",
+        "row_count": 25,
+        "to_currency": "EUR",
+        "unique_rates": [
+          "0.92"
+        ]
+      },
+      {
+        "first_date": "2023-10-15",
+        "from_currency": "USD",
+        "last_date": "2026-06-15",
+        "row_count": 30,
+        "to_currency": "IDR",
+        "unique_rates": [
+          "15833.33"
+        ]
+      },
+      {
+        "first_date": "2024-01-15",
+        "from_currency": "USD",
+        "last_date": "2026-11-15",
+        "row_count": 33,
+        "to_currency": "INR",
+        "unique_rates": [
+          "83.33"
+        ]
+      }
+    ],
+    "evidence": "Exact rates available for visible sample projections; all supplied pairs are constant. No evidence for unsupplied future dates.",
+    "missing_exact_sample_rates": 0,
+    "sample_foreign_occurrences_before_reconciliation": [
+      {
+        "date": "2024-03-15",
+        "exact_rate_exists": true,
+        "from_currency": "USD",
+        "fx_date": "2024-03-15",
+        "request_id": "request_25",
+        "source_id": "series_4e72effdff1ad033b6a5",
+        "to_currency": "IDR"
+      },
+      {
+        "date": "2024-04-15",
+        "exact_rate_exists": true,
+        "from_currency": "USD",
+        "fx_date": "2024-04-15",
+        "request_id": "request_25",
+        "source_id": "series_4e72effdff1ad033b6a5",
+        "to_currency": "IDR"
+      },
+      {
+        "date": "2024-05-15",
+        "exact_rate_exists": true,
+        "from_currency": "USD",
+        "fx_date": "2024-05-15",
+        "request_id": "request_25",
+        "source_id": "series_4e72effdff1ad033b6a5",
+        "to_currency": "IDR"
+      },
+      {
+        "date": "2024-03-15",
+        "exact_rate_exists": true,
+        "from_currency": "USD",
+        "fx_date": "2024-03-15",
+        "request_id": "request_25",
+        "source_id": "event_2288",
+        "to_currency": "IDR"
+      }
+    ],
+    "sample_users_requiring_future_fx": [
+      "request_25"
+    ],
+    "selected_policy": "explicit settlement FX date; projected occurrence exact date; missing rate fails"
+  },
+  "horizon_calendar_dates": 91,
+  "input_sha256": {
+    "exchange_rates.csv": "3de3877e48707fea1c9cd62d1931d8cc6352992ff9549ad41a1580649b1bf3e3",
+    "financial_events.csv": "f6a7ccf24d9bfd4a019977ea88a9086e5851b3565b1816890fee5023bbd25f1f",
+    "financial_profiles.csv": "b91b4ccbda3d5af99bf87c313e367f25cde5b2338a2fedafcd8f71550cf86500",
+    "images.csv": "c5a3f1686b1f98acf9f884aacf512f97f75a7923b066892ca90f7d2d34baa1f9",
+    "messages.csv": "fd9e3a1acb604f9a855153344539e9eefa71076faabb8c427d107f4724ef52a3",
+    "output.csv": "ee979aa8cc1b77040b2bf6da2350b313ebe95ce263cab679761293c102ac992d",
+    "request_payment_options.csv": "aedadf63a13f5dd002934823090f543f17f42eff05f2953a1baae01d8ac91f22",
+    "requests.csv": "f94255baa9f55857fea57b09c00a7e970c4a80ece4bf1c412fbf5fbe8225f78b",
+    "sample_requests.csv": "1195bbe962e62a3eafa1118efc5fdef3f5fac0bf70009e6e59dab75b9228c5dc"
+  },
+  "recurrence_policy": "category / calendar_aware / mean_last_5 (provisional)",
+  "same_day": {
+    "cases": [
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2024-05-02",
+          "minimum_projected_balance": "1141.92",
+          "minimum_projected_balance_date": "2024-06-01",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2024-05-02",
+          "minimum_projected_balance": "1141.92",
+          "minimum_projected_balance_date": "2024-06-01",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.0",
+          "max_daily_minimum_balance_difference": "0.0",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "irregular_or_non_regular_income"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_01",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "25256",
+            "date": "2024-03-03"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2024-05-02",
+          "minimum_projected_balance": "1141.92",
+          "minimum_projected_balance_date": "2024-06-01",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2024-05-02",
+          "minimum_projected_balance": "1141.92",
+          "minimum_projected_balance_date": "2024-06-01",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.0",
+          "max_daily_minimum_balance_difference": "0.0",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "irregular_or_non_regular_income"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_01",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "25256",
+            "date": "2024-03-03"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2025-09-09",
+          "minimum_projected_balance": "19121986.83",
+          "minimum_projected_balance_date": "2025-10-13",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2025-09-09",
+          "minimum_projected_balance": "19121986.83",
+          "minimum_projected_balance_date": "2025-10-13",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.0",
+          "max_daily_minimum_balance_difference": "0.0",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_02",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "15952906.67",
+            "date": "2025-08-08"
+          },
+          {
+            "amount": "15952906.67",
+            "date": "2025-09-07"
+          },
+          {
+            "amount": "15952906.67",
+            "date": "2025-10-07"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_01",
+              "reason": "Salary increase effective 2025-08-15 is not applied."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2025-09-15",
+          "minimum_projected_balance": "10558444.42",
+          "minimum_projected_balance_date": "2025-09-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2025-10-08",
+          "minimum_projected_balance": "20962706.84",
+          "minimum_projected_balance_date": "2025-10-13",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [
+            "2025-09-15"
+          ],
+          "horizon_minimum_difference": "10404262.42",
+          "max_daily_closing_balance_difference": "0.0",
+          "max_daily_minimum_balance_difference": "32046828.31",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_02",
+        "same_day_credits": [
+          {
+            "amount": "33345000.00",
+            "currency": "IDR",
+            "date": "2025-09-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_6725cf632ef01c8161d2"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "46018000",
+            "date": "2025-09-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_01",
+              "reason": "Salary increase effective 2025-08-15 is not applied."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2019-11-15",
+          "minimum_projected_balance": "1516381.60",
+          "minimum_projected_balance_date": "2019-11-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "3611183.15",
+          "minimum_projected_balance_date": "2019-09-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2019-11-15"
+          ],
+          "horizon_minimum_difference": "2094801.55",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "4365000.00",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "image_or_missing_amount_resolution",
+          "irregular_or_non_regular_income",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_03",
+        "same_day_credits": [
+          {
+            "amount": "4365000.00",
+            "currency": "IDR",
+            "date": "2019-11-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_00c056aca6b81477b8fe"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "5491000",
+            "date": "2019-11-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_02",
+              "reason": "Regular next payroll confirmed; historical blank payslip and one-off adjustment need separation."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment",
+            "unextracted_image_or_missing_historical_amount"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2019-11-15",
+          "minimum_projected_balance": "1516381.60",
+          "minimum_projected_balance_date": "2019-11-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "3611183.15",
+          "minimum_projected_balance_date": "2019-09-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2019-11-15"
+          ],
+          "horizon_minimum_difference": "2094801.55",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "4365000.00",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "image_or_missing_amount_resolution",
+          "irregular_or_non_regular_income",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_03",
+        "same_day_credits": [
+          {
+            "amount": "4365000.00",
+            "currency": "IDR",
+            "date": "2019-11-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_00c056aca6b81477b8fe"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "5491000",
+            "date": "2019-11-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_02",
+              "reason": "Regular next payroll confirmed; historical blank payslip and one-off adjustment need separation."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment",
+            "unextracted_image_or_missing_historical_amount"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2024-06-15",
+          "minimum_projected_balance": "28591145.71",
+          "minimum_projected_balance_date": "2024-06-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "33819177.50",
+          "minimum_projected_balance_date": "2024-07-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2024-06-15"
+          ],
+          "horizon_minimum_difference": "5228031.79",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "12693000.00",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "irregular_or_non_regular_income",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_04",
+        "same_day_credits": [
+          {
+            "amount": "38190000.00",
+            "currency": "IDR",
+            "date": "2024-06-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_1003cf2f231f1638aa3f"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "12693000",
+            "date": "2024-06-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_03",
+              "reason": "Unapproved quarterly bonus: excluded from recurring income; no future bonus added."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2024-06-15",
+          "minimum_projected_balance": "28591145.71",
+          "minimum_projected_balance_date": "2024-06-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "33819177.50",
+          "minimum_projected_balance_date": "2024-07-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2024-06-15"
+          ],
+          "horizon_minimum_difference": "5228031.79",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "12693000.00",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "irregular_or_non_regular_income",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_04",
+        "same_day_credits": [
+          {
+            "amount": "38190000.00",
+            "currency": "IDR",
+            "date": "2024-06-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_1003cf2f231f1638aa3f"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "12693000",
+            "date": "2024-06-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_03",
+              "reason": "Unapproved quarterly bonus: excluded from recurring income; no future bonus added."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2026-01-11",
+          "minimum_projected_balance": "704.15",
+          "minimum_projected_balance_date": "2026-01-13",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2026-01-11",
+          "minimum_projected_balance": "704.15",
+          "minimum_projected_balance_date": "2026-01-13",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "labeled_spending_changes_not_applied_to_baseline_probe",
+          "messages_not_semantically_applied",
+          "spending_optimization"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_06",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "620.40",
+            "date": "2026-01-03"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_04",
+              "reason": "Temporary reduced pay continues for next cycle; mean history does not apply this amendment."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment",
+            "labeled_spending_changes_unapplied"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2026-01-15",
+          "minimum_projected_balance": "704.15",
+          "minimum_projected_balance_date": "2026-01-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1069.25",
+          "minimum_projected_balance_date": "2026-02-13",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2026-01-15"
+          ],
+          "horizon_minimum_difference": "365.10",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "620.40",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "labeled_spending_changes_not_applied_to_baseline_probe",
+          "messages_not_semantically_applied",
+          "spending_optimization"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_06",
+        "same_day_credits": [
+          {
+            "amount": "1279.61",
+            "currency": "EUR",
+            "date": "2026-01-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_ffa7cb97b4dc86cbfde3"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "620.4",
+            "date": "2026-01-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_04",
+              "reason": "Temporary reduced pay continues for next cycle; mean history does not apply this amendment."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment",
+            "labeled_spending_changes_unapplied"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "111822.10",
+          "minimum_projected_balance_date": "2024-10-13",
+          "safe_for_supplied_flows": true
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "111822.10",
+          "minimum_projected_balance_date": "2024-10-13",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_07",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "68432",
+            "date": "2024-09-12"
+          },
+          {
+            "amount": "68432",
+            "date": "2024-10-10"
+          },
+          {
+            "amount": "68432",
+            "date": "2024-11-07"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_05",
+              "reason": "Confirmed salary delayed to 2024-09-23; scope beyond that cycle is unclear. Historical 15th projections are unamended."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "120210.34",
+          "minimum_projected_balance_date": "2024-11-13",
+          "safe_for_supplied_flows": true
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "120210.34",
+          "minimum_projected_balance_date": "2024-11-13",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_07",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "197400",
+            "date": "2024-10-23"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_05",
+              "reason": "Confirmed salary delayed to 2024-09-23; scope beyond that cycle is unclear. Historical 15th projections are unamended."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2025-04-15",
+          "minimum_projected_balance": "39.18",
+          "minimum_projected_balance_date": "2025-04-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2025-05-01",
+          "minimum_projected_balance": "227.41",
+          "minimum_projected_balance_date": "2025-05-08",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [
+            "2025-04-15"
+          ],
+          "horizon_minimum_difference": "188.23",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "996.60",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_08",
+        "same_day_credits": [
+          {
+            "amount": "1294.79",
+            "currency": "EUR",
+            "date": "2025-04-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_08e07b2dffef091fce73"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "996.60",
+            "date": "2025-04-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_06",
+              "reason": "Next salary changed for unpaid leave; no amendment applied."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2025-04-15",
+          "minimum_projected_balance": "39.18",
+          "minimum_projected_balance_date": "2025-04-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2025-05-01",
+          "minimum_projected_balance": "227.41",
+          "minimum_projected_balance_date": "2025-05-08",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [
+            "2025-04-15"
+          ],
+          "horizon_minimum_difference": "188.23",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "996.60",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_08",
+        "same_day_credits": [
+          {
+            "amount": "1294.79",
+            "currency": "EUR",
+            "date": "2025-04-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_08e07b2dffef091fce73"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "996.6",
+            "date": "2025-04-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_06",
+              "reason": "Next salary changed for unpaid leave; no amendment applied."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2026-10-02",
+          "minimum_projected_balance": "455.65",
+          "minimum_projected_balance_date": "2026-10-02",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2026-10-02",
+          "minimum_projected_balance": "455.65",
+          "minimum_projected_balance_date": "2026-10-02",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "irregular_or_non_regular_income"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_09",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "166.61",
+            "date": "2026-07-04"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2026-10-02",
+          "minimum_projected_balance": "455.65",
+          "minimum_projected_balance_date": "2026-10-02",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2026-10-02",
+          "minimum_projected_balance": "455.65",
+          "minimum_projected_balance_date": "2026-10-02",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "irregular_or_non_regular_income"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_09",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "166.61",
+            "date": "2026-07-04"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2025-05-14",
+          "minimum_projected_balance": "33409205.15",
+          "minimum_projected_balance_date": "2025-05-14",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2025-05-14",
+          "minimum_projected_balance": "33409205.15",
+          "minimum_projected_balance_date": "2025-05-14",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "0",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "explicit_message_facts_not_interpreted",
+          "irregular_or_non_regular_income",
+          "labeled_spending_changes_not_applied_to_baseline_probe",
+          "messages_not_semantically_applied",
+          "spending_optimization"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_11",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "13110000",
+            "date": "2025-05-03"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_08",
+              "reason": "Changed confirmed base salary is not applied; speculative commissions are excluded."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment",
+            "labeled_spending_changes_unapplied"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "34994577.35",
+          "minimum_projected_balance_date": "2025-07-15",
+          "safe_for_supplied_flows": true
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "46519205.15",
+          "minimum_projected_balance_date": "2025-05-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2025-07-15"
+          ],
+          "horizon_minimum_difference": "11524627.80",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "13110000.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "explicit_message_facts_not_interpreted",
+          "irregular_or_non_regular_income",
+          "labeled_spending_changes_not_applied_to_baseline_probe",
+          "messages_not_semantically_applied",
+          "spending_optimization"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_11",
+        "same_day_credits": [
+          {
+            "amount": "23256000.00",
+            "currency": "IDR",
+            "date": "2025-07-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_66fdd70c1440552a2cfb"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "13110000",
+            "date": "2025-07-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_08",
+              "reason": "Changed confirmed base salary is not applied; speculative commissions are excluded."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment",
+            "labeled_spending_changes_unapplied"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2026-07-01",
+          "minimum_projected_balance": "33677.13",
+          "minimum_projected_balance_date": "2026-07-01",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2026-07-01",
+          "minimum_projected_balance": "33677.13",
+          "minimum_projected_balance_date": "2026-07-01",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "explicit_message_facts_not_interpreted",
+          "irregular_or_non_regular_income",
+          "messages_not_semantically_applied",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_12",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "22590.19",
+            "date": "2026-04-19"
+          },
+          {
+            "amount": "22590.19",
+            "date": "2026-05-20"
+          },
+          {
+            "amount": "22590.19",
+            "date": "2026-06-20"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_09",
+              "reason": "Seasonal contract ended; seasonal/temporary salary already excluded by history gate."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2026-07-01",
+          "minimum_projected_balance": "36283.70",
+          "minimum_projected_balance_date": "2026-07-01",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2026-07-01",
+          "minimum_projected_balance": "36283.70",
+          "minimum_projected_balance_date": "2026-07-01",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "explicit_message_facts_not_interpreted",
+          "irregular_or_non_regular_income",
+          "messages_not_semantically_applied",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_12",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "65164",
+            "date": "2026-04-05"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_09",
+              "reason": "Seasonal contract ended; seasonal/temporary salary already excluded by history gate."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2024-05-15",
+          "minimum_projected_balance": "966.87",
+          "minimum_projected_balance_date": "2024-05-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2024-06-04",
+          "minimum_projected_balance": "1175.69",
+          "minimum_projected_balance_date": "2024-06-05",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [
+            "2024-05-15"
+          ],
+          "horizon_minimum_difference": "208.82",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "941.60",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "irregular_or_non_regular_income"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_13",
+        "same_day_credits": [
+          {
+            "amount": "1343.54",
+            "currency": "EUR",
+            "date": "2024-05-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_6fdd1bc52fb9f21ac202"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "941.60",
+            "date": "2024-05-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2024-05-15",
+          "minimum_projected_balance": "966.87",
+          "minimum_projected_balance_date": "2024-05-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2024-06-04",
+          "minimum_projected_balance": "1175.69",
+          "minimum_projected_balance_date": "2024-06-05",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [
+            "2024-05-15"
+          ],
+          "horizon_minimum_difference": "208.82",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "941.60",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "irregular_or_non_regular_income"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_13",
+        "same_day_credits": [
+          {
+            "amount": "1343.54",
+            "currency": "EUR",
+            "date": "2024-05-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_6fdd1bc52fb9f21ac202"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "941.6",
+            "date": "2024-05-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": false,
+          "first_violation_date": null,
+          "minimum_projected_balance": "239870",
+          "minimum_projected_balance_date": "2023-08-12",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": false,
+          "first_violation_date": null,
+          "minimum_projected_balance": "239870",
+          "minimum_projected_balance_date": "2023-08-12",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "0",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "image_or_missing_amount_resolution",
+          "messages_not_semantically_applied",
+          "missing_or_ambiguous_future_cashflow"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_16",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "122500",
+            "date": "2023-08-12"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_12",
+              "reason": "Next rent increases 12%; unresolved rent bill amount also requires evidence."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment",
+            "unextracted_image_or_missing_historical_amount",
+            "incomplete_structured_future_amounts"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": false,
+          "first_violation_date": null,
+          "minimum_projected_balance": "239870",
+          "minimum_projected_balance_date": "2023-08-12",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": false,
+          "first_violation_date": null,
+          "minimum_projected_balance": "239870",
+          "minimum_projected_balance_date": "2023-08-12",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0",
+          "max_daily_closing_balance_difference": "0",
+          "max_daily_minimum_balance_difference": "0",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "image_or_missing_amount_resolution",
+          "messages_not_semantically_applied",
+          "missing_or_ambiguous_future_cashflow"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_16",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "122500",
+            "date": "2023-08-12"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": false,
+              "message_id": "message_12",
+              "reason": "Next rent increases 12%; unresolved rent bill amount also requires evidence."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unapplied_or_ambiguous_message_amendment",
+            "unextracted_image_or_missing_historical_amount",
+            "incomplete_structured_future_amounts"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "179554.22",
+          "minimum_projected_balance_date": "2026-05-13",
+          "safe_for_supplied_flows": true
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "179554.22",
+          "minimum_projected_balance_date": "2026-05-13",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "image_or_missing_amount_resolution",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_17",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "95194.67",
+            "date": "2026-03-01"
+          },
+          {
+            "amount": "95194.67",
+            "date": "2026-03-31"
+          },
+          {
+            "amount": "95194.67",
+            "date": "2026-04-30"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unextracted_image_or_missing_historical_amount"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2026-03-15",
+          "minimum_projected_balance": "133639.81",
+          "minimum_projected_balance_date": "2026-03-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2026-04-11",
+          "minimum_projected_balance": "162089.02",
+          "minimum_projected_balance_date": "2026-04-13",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [
+            "2026-03-15"
+          ],
+          "horizon_minimum_difference": "28449.21",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "206000.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "image_or_missing_amount_resolution",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_17",
+        "same_day_credits": [
+          {
+            "amount": "206000",
+            "currency": "INR",
+            "date": "2026-03-15",
+            "provenance": "scheduled_event",
+            "source_id": "event_1546"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "274600",
+            "date": "2026-03-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unextracted_image_or_missing_historical_amount"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2026-09-15",
+          "minimum_projected_balance": "1024.48",
+          "minimum_projected_balance_date": "2026-09-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1947.76",
+          "minimum_projected_balance_date": "2026-07-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2026-09-15"
+          ],
+          "horizon_minimum_difference": "923.28",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "2310.00",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_18",
+        "same_day_credits": [
+          {
+            "amount": "2310.00",
+            "currency": "EUR",
+            "date": "2026-09-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_1d46b55d45e9af8e6b13"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "3246.10",
+            "date": "2026-09-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_13",
+              "reason": "Internal historical transfer pair is not replayed or projected as recurring salary/expense."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2026-09-15",
+          "minimum_projected_balance": "1024.48",
+          "minimum_projected_balance_date": "2026-09-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1947.76",
+          "minimum_projected_balance_date": "2026-07-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2026-09-15"
+          ],
+          "horizon_minimum_difference": "923.28",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "2310.00",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_18",
+        "same_day_credits": [
+          {
+            "amount": "2310.00",
+            "currency": "EUR",
+            "date": "2026-09-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_1d46b55d45e9af8e6b13"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "3246.1",
+            "date": "2026-09-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_13",
+              "reason": "Internal historical transfer pair is not replayed or projected as recurring salary/expense."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2024-09-14",
+          "minimum_projected_balance": "78619.31",
+          "minimum_projected_balance_date": "2024-09-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": "2024-09-14",
+          "minimum_projected_balance": "89459.31",
+          "minimum_projected_balance_date": "2024-09-14",
+          "safe_for_supplied_flows": false
+        },
+        "difference": {
+          "changed_dates": [
+            "2024-09-15"
+          ],
+          "horizon_minimum_difference": "10840.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "10840.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "image_or_missing_amount_resolution",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_19",
+        "same_day_credits": [
+          {
+            "amount": "131000.00",
+            "currency": "INR",
+            "date": "2024-09-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_e98ebc5ec046878638fd"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "28820",
+            "date": "2024-09-04"
+          },
+          {
+            "amount": "10840",
+            "date": "2024-09-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unextracted_image_or_missing_historical_amount"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2024-09-15",
+          "minimum_projected_balance": "78619.31",
+          "minimum_projected_balance_date": "2024-09-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "103381.01",
+          "minimum_projected_balance_date": "2024-10-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2024-09-15"
+          ],
+          "horizon_minimum_difference": "24761.70",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "39660.00",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "image_or_missing_amount_resolution",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_19",
+        "same_day_credits": [
+          {
+            "amount": "131000.00",
+            "currency": "INR",
+            "date": "2024-09-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_e98ebc5ec046878638fd"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "39660",
+            "date": "2024-09-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "unextracted_image_or_missing_historical_amount"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1900.75",
+          "minimum_projected_balance_date": "2026-04-12",
+          "safe_for_supplied_flows": true
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1900.75",
+          "minimum_projected_balance_date": "2026-04-12",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "labeled_spending_changes_not_applied_to_baseline_probe",
+          "spending_optimization"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_21",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "1574.40",
+            "date": "2026-04-03"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "labeled_spending_changes_unapplied"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "1900.75",
+          "minimum_projected_balance_date": "2026-04-15",
+          "safe_for_supplied_flows": true
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "2625.85",
+          "minimum_projected_balance_date": "2026-05-12",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2026-04-15"
+          ],
+          "horizon_minimum_difference": "725.10",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "1574.40",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "labeled_spending_changes_not_applied_to_baseline_probe",
+          "spending_optimization"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_21",
+        "same_day_credits": [
+          {
+            "amount": "2256",
+            "currency": "USD",
+            "date": "2026-04-15",
+            "provenance": "scheduled_event",
+            "source_id": "event_1858"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "1574.4",
+            "date": "2026-04-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": false,
+          "message_reviews": [],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": [
+            "labeled_spending_changes_unapplied"
+          ]
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "527.24",
+          "minimum_projected_balance_date": "2025-02-14",
+          "safe_for_supplied_flows": true
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "527.24",
+          "minimum_projected_balance_date": "2025-02-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [],
+          "horizon_minimum_difference": "0.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "0.00",
+          "safety_differs": false
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_22",
+        "same_day_credits": [],
+        "supplied_payments": [
+          {
+            "amount": "253.59",
+            "date": "2024-12-08"
+          },
+          {
+            "amount": "253.59",
+            "date": "2025-01-05"
+          },
+          {
+            "amount": "253.59",
+            "date": "2025-02-02"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_15",
+              "reason": "Unrealized portfolio valuation is non-cash and excluded."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2025-01-15",
+          "minimum_projected_balance": "412.70",
+          "minimum_projected_balance_date": "2025-01-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "556.51",
+          "minimum_projected_balance_date": "2025-02-14",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2025-01-15"
+          ],
+          "horizon_minimum_difference": "143.81",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "573.17",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied",
+          "payment_plan_mechanics"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_22",
+        "same_day_credits": [
+          {
+            "amount": "616.00",
+            "currency": "EUR",
+            "date": "2025-01-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_3bacd70796a7034ed903"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "731.5",
+            "date": "2025-01-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_15",
+              "reason": "Unrealized portfolio valuation is non-cash and excluded."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2025-07-15",
+          "minimum_projected_balance": "10134.79",
+          "minimum_projected_balance_date": "2025-07-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "30791.79",
+          "minimum_projected_balance_date": "2025-08-04",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2025-07-15"
+          ],
+          "horizon_minimum_difference": "20657.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "38016.00",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_plan",
+        "request_id": "request_23",
+        "same_day_credits": [
+          {
+            "amount": "45760.00",
+            "currency": "ZAR",
+            "date": "2025-07-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_34ecfa47b98c34a83ef7"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "38016",
+            "date": "2025-07-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_16",
+              "reason": "Uncredited prize claim: no speculative future prize cash added."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      },
+      {
+        "candidate_before_cashflows": {
+          "complete": true,
+          "first_violation_date": "2025-07-15",
+          "minimum_projected_balance": "10134.79",
+          "minimum_projected_balance_date": "2025-07-15",
+          "safe_for_supplied_flows": false
+        },
+        "cashflows_before_candidate": {
+          "complete": true,
+          "first_violation_date": null,
+          "minimum_projected_balance": "30791.79",
+          "minimum_projected_balance_date": "2025-08-04",
+          "safe_for_supplied_flows": true
+        },
+        "difference": {
+          "changed_dates": [
+            "2025-07-15"
+          ],
+          "horizon_minimum_difference": "20657.00",
+          "max_daily_closing_balance_difference": "0.00",
+          "max_daily_minimum_balance_difference": "38016.00",
+          "safety_differs": true
+        },
+        "known_confounders": [
+          "event_vs_settlement_timing",
+          "explicit_message_facts_not_interpreted",
+          "messages_not_semantically_applied"
+        ],
+        "label_disambiguation": "Conditional probe only: recurrence point forecasts and unresolved evidence are not controlled label inputs.",
+        "probe": "supplied_full_payment_date",
+        "request_id": "request_23",
+        "same_day_credits": [
+          {
+            "amount": "45760.00",
+            "currency": "ZAR",
+            "date": "2025-07-15",
+            "provenance": "recurrence_projection",
+            "source_id": "series_34ecfa47b98c34a83ef7"
+          }
+        ],
+        "supplied_payments": [
+          {
+            "amount": "38016",
+            "date": "2025-07-15"
+          }
+        ],
+        "timing_context_review": {
+          "conditional_timing_support_eligible": true,
+          "message_reviews": [
+            {
+              "existing_rules_cover_fact": true,
+              "message_id": "message_16",
+              "reason": "Uncredited prize claim: no speculative future prize cash added."
+            }
+          ],
+          "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+          "timing_probe_blockers": []
+        }
+      }
+    ],
+    "conditional_safety_flip_count": 7,
+    "conditional_safety_flip_request_ids": [
+      "request_03",
+      "request_04",
+      "request_06",
+      "request_18",
+      "request_19",
+      "request_22",
+      "request_23"
+    ],
+    "conditionally_supporting_count": 4,
+    "conditionally_supporting_request_ids": [
+      "request_04",
+      "request_18",
+      "request_22",
+      "request_23"
+    ],
+    "numerically_sensitive_count": 13,
+    "numerically_sensitive_request_ids": [
+      "request_02",
+      "request_03",
+      "request_04",
+      "request_06",
+      "request_08",
+      "request_11",
+      "request_13",
+      "request_17",
+      "request_18",
+      "request_19",
+      "request_21",
+      "request_22",
+      "request_23"
+    ],
+    "policies": [
+      "cashflows_before_candidate",
+      "candidate_before_cashflows"
+    ],
+    "probe_count": 36,
+    "requests_with_same_day_credit": [
+      "request_02",
+      "request_03",
+      "request_04",
+      "request_06",
+      "request_08",
+      "request_11",
+      "request_13",
+      "request_17",
+      "request_18",
+      "request_19",
+      "request_21",
+      "request_22",
+      "request_23"
+    ],
+    "safe_probe_count_candidate_first": 7,
+    "safe_probe_count_cashflows_first": 18,
+    "selected_default": "cashflows_before_candidate",
+    "strength_of_evidence": "partially supported under provisional recurrence; not uniquely disambiguated",
+    "uniquely_identifying_labels_count": 0
+  },
+  "sample_requests": 25,
+  "scope": "Phase 3: supplied-flow safety probes, not affordability decisions or earliest-date validation",
+  "unresolved_ambiguity": [
+    "Point recurrence predictions are not confirmed future income or conservative essential-spend reserves.",
+    "Sample message amendments and image amounts are not interpreted; confounders are enumerated for every case.",
+    "A safe supplied-date probe does not prove an earliest date; an unsafe one may reflect other missing semantics.",
+    "Candidate/normal ordering changes intraday minima, not daily closing balances.",
+    "Normal cashflows use credits then aggregated debits; internal transaction order is not labeled.",
+    "Pending debit reservation timing remains provisional; event-date mode reserves overdue authorizations immediately."
+  ]
+}

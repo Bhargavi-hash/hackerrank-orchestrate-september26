@@ -1,0 +1,1123 @@
+[
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [],
+    "explicit_occurrence_count": 2,
+    "historical_salary_projection_count": 0,
+    "home_currency": "ZAR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "irregular_or_non_regular_income"
+    ],
+    "message_ids": [],
+    "minimum_balance": "18000",
+    "minimum_projected_balance": "26397.92",
+    "minimum_projected_balance_date": "2024-06-01",
+    "payment_option_ids_inspected": [
+      "payment_option_01",
+      "payment_option_02",
+      "payment_option_03",
+      "payment_option_04"
+    ],
+    "pending_debit_count": 1,
+    "raw_recurring_occurrence_count": 49,
+    "recurring_occurrence_count": 49,
+    "request_date": "2024-03-03",
+    "request_id": "request_01",
+    "starting_balance": "58481.1",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_6725cf632ef01c8161d2: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 3,
+    "home_currency": "IDR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "messages_not_semantically_applied",
+      "payment_plan_mechanics"
+    ],
+    "message_ids": [
+      "message_01"
+    ],
+    "minimum_balance": "29158400",
+    "minimum_projected_balance": "47227984.88",
+    "minimum_projected_balance_date": "2025-08-13",
+    "payment_option_ids_inspected": [
+      "payment_option_05",
+      "payment_option_06",
+      "payment_option_07"
+    ],
+    "pending_debit_count": 1,
+    "raw_recurring_occurrence_count": 42,
+    "recurring_occurrence_count": 42,
+    "request_date": "2025-08-05",
+    "request_id": "request_02",
+    "starting_balance": "60383889.2",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": false,
+          "message_id": "message_01",
+          "reason": "Salary increase effective 2025-08-15 is not applied."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unapplied_or_ambiguous_message_amendment"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_00c056aca6b81477b8fe: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 3,
+    "home_currency": "IDR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [
+      "image_01"
+    ],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "image_or_missing_amount_resolution",
+      "irregular_or_non_regular_income",
+      "messages_not_semantically_applied"
+    ],
+    "message_ids": [
+      "message_02"
+    ],
+    "minimum_balance": "2668700",
+    "minimum_projected_balance": "3611183.15",
+    "minimum_projected_balance_date": "2019-09-14",
+    "payment_option_ids_inspected": [
+      "payment_option_08",
+      "payment_option_09",
+      "payment_option_10"
+    ],
+    "pending_debit_count": 1,
+    "raw_recurring_occurrence_count": 35,
+    "recurring_occurrence_count": 35,
+    "request_date": "2019-09-03",
+    "request_id": "request_03",
+    "starting_balance": "5810300",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": false,
+          "message_id": "message_02",
+          "reason": "Regular next payroll confirmed; historical blank payslip and one-off adjustment need separation."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unapplied_or_ambiguous_message_amendment",
+        "unextracted_image_or_missing_historical_amount"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_1003cf2f231f1638aa3f: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 3,
+    "home_currency": "IDR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "irregular_or_non_regular_income",
+      "messages_not_semantically_applied"
+    ],
+    "message_ids": [
+      "message_03"
+    ],
+    "minimum_balance": "30686600",
+    "minimum_projected_balance": "41284145.71",
+    "minimum_projected_balance_date": "2024-06-13",
+    "payment_option_ids_inspected": [
+      "payment_option_11",
+      "payment_option_12"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 54,
+    "recurring_occurrence_count": 54,
+    "request_date": "2024-06-04",
+    "request_id": "request_04",
+    "starting_balance": "52206950",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": true,
+          "message_id": "message_03",
+          "reason": "Unapproved quarterly bonus: excluded from recurring income; no future bonus added."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_5b0d20567e03db8150f9: continuation suppressed by event_390 final payroll"
+    ],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 0,
+    "home_currency": "ZAR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "explicit_final_payroll_marker",
+      "irregular_or_non_regular_income"
+    ],
+    "message_ids": [],
+    "minimum_balance": "13100",
+    "minimum_projected_balance": "7976.11",
+    "minimum_projected_balance_date": "2026-02-04",
+    "payment_option_ids_inspected": [
+      "payment_option_13",
+      "payment_option_14",
+      "payment_option_15"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 41,
+    "recurring_occurrence_count": 41,
+    "request_date": "2025-11-06",
+    "request_id": "request_05",
+    "starting_balance": "46475.1",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_ffa7cb97b4dc86cbfde3: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 3,
+    "home_currency": "EUR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "labeled_spending_changes_not_applied_to_baseline_probe",
+      "messages_not_semantically_applied",
+      "spending_optimization"
+    ],
+    "message_ids": [
+      "message_04"
+    ],
+    "minimum_balance": "800",
+    "minimum_projected_balance": "1324.55",
+    "minimum_projected_balance_date": "2026-01-13",
+    "payment_option_ids_inspected": [
+      "payment_option_16",
+      "payment_option_17",
+      "payment_option_18"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 66,
+    "recurring_occurrence_count": 66,
+    "request_date": "2026-01-03",
+    "request_id": "request_06",
+    "starting_balance": "1942.4",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": false,
+          "message_id": "message_04",
+          "reason": "Temporary reduced pay continues for next cycle; mean history does not apply this amendment."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unapplied_or_ambiguous_message_amendment",
+        "labeled_spending_changes_unapplied"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_0bbf1684388ba0f290a3: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 3,
+    "home_currency": "INR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "messages_not_semantically_applied",
+      "payment_plan_mechanics"
+    ],
+    "message_ids": [
+      "message_05"
+    ],
+    "minimum_balance": "93000",
+    "minimum_projected_balance": "188809.06",
+    "minimum_projected_balance_date": "2024-09-13",
+    "payment_option_ids_inspected": [
+      "payment_option_19",
+      "payment_option_20",
+      "payment_option_21"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 29,
+    "recurring_occurrence_count": 29,
+    "request_date": "2024-09-05",
+    "request_id": "request_07",
+    "starting_balance": "218945.56",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": false,
+          "message_id": "message_05",
+          "reason": "Confirmed salary delayed to 2024-09-23; scope beyond that cycle is unclear. Historical 15th projections are unamended."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unapplied_or_ambiguous_message_amendment"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_08e07b2dffef091fce73: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 3,
+    "home_currency": "EUR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "explicit_message_facts_not_interpreted",
+      "messages_not_semantically_applied"
+    ],
+    "message_ids": [
+      "message_06"
+    ],
+    "minimum_balance": "800",
+    "minimum_projected_balance": "1035.78",
+    "minimum_projected_balance_date": "2025-04-12",
+    "payment_option_ids_inspected": [
+      "payment_option_22",
+      "payment_option_23"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 55,
+    "recurring_occurrence_count": 55,
+    "request_date": "2025-02-07",
+    "request_id": "request_08",
+    "starting_balance": "1536.57",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": false,
+          "message_id": "message_06",
+          "reason": "Next salary changed for unpaid leave; no amendment applied."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unapplied_or_ambiguous_message_amendment"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 0,
+    "home_currency": "EUR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "irregular_or_non_regular_income"
+    ],
+    "message_ids": [],
+    "minimum_balance": "600",
+    "minimum_projected_balance": "622.26",
+    "minimum_projected_balance_date": "2026-10-02",
+    "payment_option_ids_inspected": [
+      "payment_option_24",
+      "payment_option_25",
+      "payment_option_26"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 32,
+    "recurring_occurrence_count": 32,
+    "request_date": "2026-07-04",
+    "request_id": "request_09",
+    "starting_balance": "2231.1",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 0,
+    "home_currency": "INR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "explicit_message_facts_not_interpreted",
+      "irregular_or_non_regular_income",
+      "messages_not_semantically_applied"
+    ],
+    "message_ids": [
+      "message_07"
+    ],
+    "minimum_balance": "225400",
+    "minimum_projected_balance": "197797.36",
+    "minimum_projected_balance_date": "2025-03-06",
+    "payment_option_ids_inspected": [
+      "payment_option_27",
+      "payment_option_28"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 50,
+    "recurring_occurrence_count": 50,
+    "request_date": "2024-12-06",
+    "request_id": "request_10",
+    "starting_balance": "750155",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": true,
+          "message_id": "message_07",
+          "reason": "Non-withdrawable pending gig payout is not recurring regular salary or confirmed credit."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_66fdd70c1440552a2cfb: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 3,
+    "home_currency": "IDR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "explicit_message_facts_not_interpreted",
+      "irregular_or_non_regular_income",
+      "labeled_spending_changes_not_applied_to_baseline_probe",
+      "messages_not_semantically_applied",
+      "spending_optimization"
+    ],
+    "message_ids": [
+      "message_08"
+    ],
+    "minimum_balance": "34140600",
+    "minimum_projected_balance": "46519205.15",
+    "minimum_projected_balance_date": "2025-05-14",
+    "payment_option_ids_inspected": [
+      "payment_option_29",
+      "payment_option_30",
+      "payment_option_31",
+      "payment_option_32"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 43,
+    "recurring_occurrence_count": 43,
+    "request_date": "2025-05-03",
+    "request_id": "request_11",
+    "starting_balance": "63531795",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": false,
+          "message_id": "message_08",
+          "reason": "Changed confirmed base salary is not applied; speculative commissions are excluded."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unapplied_or_ambiguous_message_amendment",
+        "labeled_spending_changes_unapplied"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 0,
+    "home_currency": "ZAR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "explicit_message_facts_not_interpreted",
+      "irregular_or_non_regular_income",
+      "messages_not_semantically_applied",
+      "payment_plan_mechanics"
+    ],
+    "message_ids": [
+      "message_09"
+    ],
+    "minimum_balance": "43200",
+    "minimum_projected_balance": "101447.70",
+    "minimum_projected_balance_date": "2026-07-01",
+    "payment_option_ids_inspected": [
+      "payment_option_33",
+      "payment_option_34",
+      "payment_option_35"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 32,
+    "recurring_occurrence_count": 32,
+    "request_date": "2026-04-05",
+    "request_id": "request_12",
+    "starting_balance": "193089.89",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": true,
+          "message_id": "message_09",
+          "reason": "Seasonal contract ended; seasonal/temporary salary already excluded by history gate."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_6fdd1bc52fb9f21ac202: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 2,
+    "home_currency": "EUR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "irregular_or_non_regular_income"
+    ],
+    "message_ids": [],
+    "minimum_balance": "1300",
+    "minimum_projected_balance": "1908.47",
+    "minimum_projected_balance_date": "2024-05-14",
+    "payment_option_ids_inspected": [
+      "payment_option_36",
+      "payment_option_37",
+      "payment_option_38"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 52,
+    "recurring_occurrence_count": 51,
+    "request_date": "2024-03-07",
+    "request_id": "request_13",
+    "starting_balance": "2789.52",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 0,
+    "home_currency": "EUR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "explicit_message_facts_not_interpreted",
+      "irregular_or_non_regular_income",
+      "messages_not_semantically_applied"
+    ],
+    "message_ids": [
+      "message_10"
+    ],
+    "minimum_balance": "2200",
+    "minimum_projected_balance": "-2005.23",
+    "minimum_projected_balance_date": "2025-11-02",
+    "payment_option_ids_inspected": [
+      "payment_option_39",
+      "payment_option_40"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 39,
+    "recurring_occurrence_count": 39,
+    "request_date": "2025-08-04",
+    "request_id": "request_14",
+    "starting_balance": "3931.74",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": false,
+          "message_id": "message_10",
+          "reason": "Salary resumes and childcare begins; childcare amount unspecified, both amendments unapplied."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unapplied_or_ambiguous_message_amendment"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 0,
+    "home_currency": "EUR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "explicit_message_facts_not_interpreted",
+      "irregular_or_non_regular_income",
+      "messages_not_semantically_applied"
+    ],
+    "message_ids": [
+      "message_11"
+    ],
+    "minimum_balance": "1200",
+    "minimum_projected_balance": "-2122.13",
+    "minimum_projected_balance_date": "2026-04-04",
+    "payment_option_ids_inspected": [
+      "payment_option_41",
+      "payment_option_42",
+      "payment_option_43"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 51,
+    "recurring_occurrence_count": 51,
+    "request_date": "2026-01-06",
+    "request_id": "request_15",
+    "starting_balance": "1770.05",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": false,
+          "message_id": "message_11",
+          "reason": "First confirmed salary amount/date absent from structured scheduled rows; amendment unapplied."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unapplied_or_ambiguous_message_amendment"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": false,
+    "diagnostics": [
+      "series_46949ea4bff91ef60603: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 3,
+    "home_currency": "INR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [
+      "image_02"
+    ],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "image_or_missing_amount_resolution",
+      "messages_not_semantically_applied",
+      "missing_or_ambiguous_future_cashflow"
+    ],
+    "message_ids": [
+      "message_12"
+    ],
+    "minimum_balance": "122400",
+    "minimum_projected_balance": "362370",
+    "minimum_projected_balance_date": "2023-08-12",
+    "payment_option_ids_inspected": [
+      "payment_option_44",
+      "payment_option_45",
+      "payment_option_46"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 52,
+    "recurring_occurrence_count": 52,
+    "request_date": "2023-08-12",
+    "request_id": "request_16",
+    "starting_balance": "362370",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": false,
+          "message_id": "message_12",
+          "reason": "Next rent increases 12%; unresolved rent bill amount also requires evidence."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unapplied_or_ambiguous_message_amendment",
+        "unextracted_image_or_missing_historical_amount",
+        "incomplete_structured_future_amounts"
+      ]
+    },
+    "unresolved_sources": [
+      "event_1442: missing future debit amount"
+    ]
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_c3b1a1c4556a471d8431: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 2,
+    "home_currency": "INR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [
+      "image_03"
+    ],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "image_or_missing_amount_resolution",
+      "payment_plan_mechanics"
+    ],
+    "message_ids": [],
+    "minimum_balance": "166100",
+    "minimum_projected_balance": "408239.81",
+    "minimum_projected_balance_date": "2026-03-14",
+    "payment_option_ids_inspected": [
+      "payment_option_47",
+      "payment_option_48",
+      "payment_option_49"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 53,
+    "recurring_occurrence_count": 52,
+    "request_date": "2026-03-01",
+    "request_id": "request_17",
+    "starting_balance": "550379.58",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unextracted_image_or_missing_historical_amount"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_1d46b55d45e9af8e6b13: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 3,
+    "home_currency": "EUR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "explicit_message_facts_not_interpreted",
+      "messages_not_semantically_applied"
+    ],
+    "message_ids": [
+      "message_13"
+    ],
+    "minimum_balance": "1400",
+    "minimum_projected_balance": "1947.76",
+    "minimum_projected_balance_date": "2026-07-14",
+    "payment_option_ids_inspected": [
+      "payment_option_50",
+      "payment_option_51"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 39,
+    "recurring_occurrence_count": 39,
+    "request_date": "2026-07-07",
+    "request_id": "request_18",
+    "starting_balance": "2486",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": true,
+          "message_id": "message_13",
+          "reason": "Internal historical transfer pair is not replayed or projected as recurring salary/expense."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_e98ebc5ec046878638fd: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 0,
+    "historical_salary_projection_count": 3,
+    "home_currency": "INR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [
+      "image_04"
+    ],
+    "known_confounders": [
+      "image_or_missing_amount_resolution",
+      "payment_plan_mechanics"
+    ],
+    "message_ids": [],
+    "minimum_balance": "92800",
+    "minimum_projected_balance": "118279.31",
+    "minimum_projected_balance_date": "2024-09-14",
+    "payment_option_ids_inspected": [
+      "payment_option_52",
+      "payment_option_53",
+      "payment_option_54"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 43,
+    "recurring_occurrence_count": 43,
+    "request_date": "2024-09-04",
+    "request_id": "request_19",
+    "starting_balance": "199545",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unextracted_image_or_missing_historical_amount"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": false,
+    "diagnostics": [
+      "event_1785: ignored pending credit",
+      "series_319b5d0bc390d1d7590b: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 3,
+    "home_currency": "INR",
+    "ignored_pending_credit_count": 1,
+    "image_ids_not_extracted": [
+      "image_05"
+    ],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "image_or_missing_amount_resolution",
+      "messages_not_semantically_applied",
+      "missing_or_ambiguous_future_cashflow"
+    ],
+    "message_ids": [
+      "message_14"
+    ],
+    "minimum_balance": "64500",
+    "minimum_projected_balance": "73793.25",
+    "minimum_projected_balance_date": "2026-02-13",
+    "payment_option_ids_inspected": [
+      "payment_option_55",
+      "payment_option_56"
+    ],
+    "pending_debit_count": 1,
+    "raw_recurring_occurrence_count": 45,
+    "recurring_occurrence_count": 45,
+    "request_date": "2026-02-07",
+    "request_id": "request_20",
+    "starting_balance": "102609.05",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": true,
+          "message_id": "message_14",
+          "reason": "Refund not credited: pending credit excluded."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "unextracted_image_or_missing_historical_amount",
+        "incomplete_structured_future_amounts"
+      ]
+    },
+    "unresolved_sources": [
+      "event_1786: missing future debit amount"
+    ]
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_e6add392a21602ae2c70: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 2,
+    "historical_salary_projection_count": 2,
+    "home_currency": "USD",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "labeled_spending_changes_not_applied_to_baseline_probe",
+      "spending_optimization"
+    ],
+    "message_ids": [],
+    "minimum_balance": "1800",
+    "minimum_projected_balance": "3475.15",
+    "minimum_projected_balance_date": "2026-04-12",
+    "payment_option_ids_inspected": [
+      "payment_option_57",
+      "payment_option_58",
+      "payment_option_59",
+      "payment_option_60"
+    ],
+    "pending_debit_count": 1,
+    "raw_recurring_occurrence_count": 35,
+    "recurring_occurrence_count": 34,
+    "request_date": "2026-04-03",
+    "request_id": "request_21",
+    "starting_balance": "3911.35",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": false,
+      "message_reviews": [],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": [
+        "labeled_spending_changes_unapplied"
+      ]
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_3bacd70796a7034ed903: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 3,
+    "home_currency": "EUR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "messages_not_semantically_applied",
+      "payment_plan_mechanics"
+    ],
+    "message_ids": [
+      "message_15"
+    ],
+    "minimum_balance": "500",
+    "minimum_projected_balance": "963.85",
+    "minimum_projected_balance_date": "2024-12-14",
+    "payment_option_ids_inspected": [
+      "payment_option_61",
+      "payment_option_62",
+      "payment_option_63"
+    ],
+    "pending_debit_count": 1,
+    "raw_recurring_occurrence_count": 53,
+    "recurring_occurrence_count": 53,
+    "request_date": "2024-12-05",
+    "request_id": "request_22",
+    "starting_balance": "1132.46",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": true,
+          "message_id": "message_15",
+          "reason": "Unrealized portfolio valuation is non-cash and excluded."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_34ecfa47b98c34a83ef7: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 3,
+    "home_currency": "ZAR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "messages_not_semantically_applied"
+    ],
+    "message_ids": [
+      "message_16"
+    ],
+    "minimum_balance": "27000",
+    "minimum_projected_balance": "35731.85",
+    "minimum_projected_balance_date": "2025-05-14",
+    "payment_option_ids_inspected": [
+      "payment_option_64",
+      "payment_option_65",
+      "payment_option_66"
+    ],
+    "pending_debit_count": 1,
+    "raw_recurring_occurrence_count": 43,
+    "recurring_occurrence_count": 43,
+    "request_date": "2025-05-07",
+    "request_id": "request_23",
+    "starting_balance": "51957.9",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": true,
+          "message_id": "message_16",
+          "reason": "Uncredited prize claim: no speculative future prize cash added."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_18d2a02c8d9fea0d1259: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 3,
+    "home_currency": "INR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "event_vs_settlement_timing",
+      "explicit_message_facts_not_interpreted",
+      "messages_not_semantically_applied"
+    ],
+    "message_ids": [
+      "message_17"
+    ],
+    "minimum_balance": "51000",
+    "minimum_projected_balance": "64599.65",
+    "minimum_projected_balance_date": "2026-01-13",
+    "payment_option_ids_inspected": [
+      "payment_option_67",
+      "payment_option_68"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 64,
+    "recurring_occurrence_count": 64,
+    "request_date": "2026-01-04",
+    "request_id": "request_24",
+    "starting_balance": "85045",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [
+        {
+          "existing_rules_cover_fact": true,
+          "message_id": "message_17",
+          "reason": "Already-settled one-time prize is in opening balance; not replayed or projected."
+        }
+      ],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  },
+  {
+    "complete_for_supplied_structured_inputs": true,
+    "diagnostics": [
+      "series_4e72effdff1ad033b6a5: historical salary forecast is not future confirmation"
+    ],
+    "explicit_occurrence_count": 1,
+    "historical_salary_projection_count": 2,
+    "home_currency": "IDR",
+    "ignored_pending_credit_count": 0,
+    "image_ids_not_extracted": [],
+    "known_confounders": [
+      "future_fx_date_policy"
+    ],
+    "message_ids": [],
+    "minimum_balance": "23379100",
+    "minimum_projected_balance": "23668696.15",
+    "minimum_projected_balance_date": "2024-03-14",
+    "payment_option_ids_inspected": [
+      "payment_option_69",
+      "payment_option_70",
+      "payment_option_71"
+    ],
+    "pending_debit_count": 0,
+    "raw_recurring_occurrence_count": 64,
+    "recurring_occurrence_count": 63,
+    "request_date": "2024-03-06",
+    "request_id": "request_25",
+    "starting_balance": "32063050",
+    "timing_context_review": {
+      "conditional_timing_support_eligible": true,
+      "message_reviews": [],
+      "remaining_common_assumption": "Provisional recurrence is a point forecast, not a uniquely identified conservative ledger.",
+      "timing_probe_blockers": []
+    },
+    "unresolved_sources": []
+  }
+]
