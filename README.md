@@ -18,30 +18,133 @@ Read [`problem_statement.md`](./problem_statement.md) for the full task spec, in
 
 ---
 
-## Quick Start
+## Quick Start — Phases 0 and 1
 
-Clone the repository and move into the project directory:
+Requires Python 3.10 or newer (verified with Python 3.10.12). This phase uses only
+Python's standard library; no package installation or API configuration is needed.
 
-```bash
-git clone https://github.com/interviewstreet/hackerrank-orchestrate-september26.git
-cd hackerrank-orchestrate-september26
-```
-
-Build your solution in `code/main.py`, or use another language and document its entry point clearly.
-
-Your solution must:
-
-- Read the input files from `dataset/`
-- Generate one prediction for every request
-- Write the final predictions to `output.csv` in the repository root
-
-Run the starter Python entry point with:
+From the repository root:
 
 ```bash
-python3 code/main.py
+python3 -m src.main
+python3 -m unittest discover -s tests -v
 ```
 
-After running your solution, confirm that `output.csv` exists in the repository root and contains the required columns and one row for every request.
+The CLI validates all nine input CSVs and writes
+[`evaluation/phase1_data_audit.json`](evaluation/phase1_data_audit.json).
+It does not calculate affordability or generate predictions. The starter command
+`python3 code/main.py` runs the same audit and also works from another directory.
+
+Override the input directory with `--dataset-root /path/to/dataset` or the
+`DATASET_ROOT` environment variable (the explicit argument wins). Override the
+artifact destination with `--audit-path /path/to/audit.json`; it must be outside
+the input dataset. Defaults resolve relative to the source location, not the
+working directory.
+
+The final challenge solution, in a later phase, must generate root-level
+`output.csv`. `dataset/output.csv` remains the read-only blank input template.
+
+### Implemented ownership
+
+| Responsibility | Owner |
+|---|---|
+| CLI and portable paths | `src/main.py`, `src/config.py` |
+| Frozen domain records and original CSV cells | `src/models/` |
+| Decimal, date, boolean, ID and pipe-list parsing | `src/data/parsers.py` |
+| Column, row, uniqueness and template validation | `src/data/loader.py` |
+| Join validation, lookup indexes and undirected adjacency | `src/data/indexes.py` |
+| Exact dated FX lookup and conversion | `src/data/currency.py::CurrencyConverter` |
+| Direction-only cash classification | `src/models/event.py::is_cash_event` |
+| Linked-component traversal | `src/evidence/resolver.py::resolve_linked_component` |
+| Protected-category and flexibility gates | `src/planning/spending_changes.py::can_stop`, `can_reduce` |
+| Dataset measurements | `src/data/audit.py` |
+
+Original CSV cells are retained in immutable `raw` mappings, including extra
+columns. Money is parsed directly to `Decimal`; blank money stays `None`.
+Profile fields use pipe-delimited parsing, immutable category/preference sets,
+and ordered priority tuples. Priorities remain metadata only.
+
+Indexes include both sample and evaluation requests so supplied offers and
+evidence can join either set; the two request collections remain separate.
+Missing references, duplicate IDs, cross-user links, malformed rows, and missing
+required columns raise actionable errors. Missing image files are reported in the
+audit; no image content is extracted. Linked components are iterative, unique,
+and ordered lexicographically by event ID, without lifecycle interpretation.
+
+`is_cash_event` is only the direction gate: a `True` result does not establish
+spendable cash. Status/timing/lifecycle rules remain deferred. Spending helpers
+only establish protection, user preference and event flexibility eligibility;
+recurrence eligibility and optimization remain deferred.
+
+FX requires the exact supplied date and direction. It does not invert pairs,
+interpolate, or choose a nearby date. Same-currency conversion returns the original
+Decimal; foreign conversion retains the exact product without currency rounding.
+Future recurring-event FX date selection remains unresolved for Phases 2–3.
+
+### Baseline and checks
+
+The initial repository had empty `code/main.py` and `code/evaluation/main.py`,
+no dependency manifest, no tests, and no established lint/type-check command.
+The baseline unittest discovery ran 0 tests successfully. Existing dataset and
+usage-report files are preserved. The standard-library unittest suite now covers
+this phase; no random seed is needed because the foundation uses no randomness.
+
+The audit defines overlap counts as the number of profiles with at least one
+overlapping category, and linked-event count as rows with a nonblank link. It
+reports evaluation requests separately from the combined sample/evaluation count.
+The cadence test asserts the observed full-file counts and frequency set; these
+are dataset regression checks, not hardcoded loading limits.
+
+---
+
+## Phase 2 — Recurrence calibration
+
+Run the deterministic recurrence experiment:
+
+```bash
+python3 -m evaluation.calibrate_recurrence
+python3 -m unittest discover -s tests -v
+python3 -m compileall -q src tests evaluation code/main.py
+git diff --check
+```
+
+`--dataset-root` and `DATASET_ROOT` work as in Phase 1. Use `--artifact-dir` to
+write reports elsewhere. The experiment reads the 25 sample users' histories;
+it does not run the 250-request challenge solution. The Phase 1 audit CLI is unchanged.
+
+| Responsibility | Owner |
+|---|---|
+| Recurrence records, policy and confidence thresholds | `src/forecast/recurrence_models.py` |
+| Eligibility, as-of lifecycle dedup, identity, cadence, amounts, confidence, source projection | `src/forecast/recurrence.py` |
+| Prefix-only holdout and rolling backtests | `evaluation/recurrence_backtest.py` |
+| Candidate policies, confounder manifest, sensitivity and artifact generation | `evaluation/calibrate_recurrence.py` |
+
+The implemented default is category identity, calendar-aware cadence, and mean of
+the last five amounts. This is moderately supported for historical amount point
+prediction and strongly supported for dates in these visible histories. The
+final financial policy remains weakly identified: no final label directly labels
+a recurring occurrence. Mean estimation is not a conservative spending reserve.
+
+Twelve one-factor policies are compared against the fixed category/calendar/median-last-3
+experimental baseline. The generated report includes coverage, per-currency MAE,
+relative errors, per-user stability, distinct-target outliers and rejected series.
+Future projections preserve provenance and native currency. Salary predictions
+are explicitly not confirmed income; message amendments and scheduled-event
+reconciliation remain external. Future FX date selection remains unresolved.
+
+Artifacts:
+
+- `evaluation/recurrence_calibration.csv` — measured policy comparisons.
+- `evaluation/recurrence_sensitivity.md` — changes across all 25 sample projections.
+- `evaluation/phase2_calibration_manifest.json` — every sample's confounders and usage.
+- `evaluation/phase2_recurrence_report.md` — methodology, selection, limitations and outliers.
+- `evaluation/phase2_recurrence_details.json` — input hashes, diagnostics, grouping examples,
+  native-currency metrics, paired-target comparisons and supporting measurements.
+
+No balances, affordability scores, payment plans, message interpretation, image
+extraction or model calls are computed in this phase.
+
+---
 
 ## Important File Locations
 

@@ -54,7 +54,9 @@ Financial safety must hold throughout the 90-day forecast.
 
 # 2. Required Output
 
-Produce exactly one row per request in `dataset/output.csv`.
+Produce exactly one row per request in root-level `output.csv`.
+`dataset/output.csv` is the read-only input template (README, Quick Start and Important File Locations).
+Phase 0 corrected this path contradiction; output generation remains deferred to Phase 10.
 
 Required columns, in order:
 
@@ -918,7 +920,14 @@ calendar-month recurrence
 category-specific cadence
 ```
 
-Evaluation against 25 labels should report:
+Phase 2 measures historical next-occurrence holdouts, rolling backtests, and
+projection sensitivity across the 25 sample users. Final-output labels do not
+contain direct recurrence targets. Affordability metrics below require the later
+simulator/capacity/planning phases and must not be fabricated in Phase 2.
+This boundary follows the Phase 2 implementation request and is documented in
+`evaluation/phase2_calibration_manifest.json` and `evaluation/phase2_recurrence_report.md`.
+
+Once those later components exist, evaluation against 25 labels should report:
 
 ```text
 amount_safe_to_pay MAE
@@ -1874,6 +1883,28 @@ test_no_false_recurrence_from_one_off
 test_recurrence_confidence
 test_recurrence_is_deterministic
 ```
+
+### Phase 2 measured default (September 2026)
+
+Implemented provisional source-projection policy:
+- category identity partitioned by user, direction, event type and currency;
+- calendar-aware cadence with median inter-arrival fallback;
+- mean of the last five amounts, Decimal, 0.01 half-up projection precision.
+
+Evidence: `evaluation/recurrence_calibration.csv` and
+`evaluation/phase2_recurrence_report.md`. Across 25 sample-user histories, the
+category/calendar policies predicted all 243 eligible last-observation holdouts
+with zero date error. Mean-last-5 had lower relative amount error than the tested
+alternatives at the same coverage. Exact description grouping fragmented variable
+spending; family identity tied category on sample projections. Category was kept
+as the simpler rule. This supports historical point prediction, not a conservative
+reserve or future salary confirmation. Confidence thresholds remain provisional,
+and final affordability labels do not uniquely identify this policy.
+
+No message overrides were implemented. Confounded labels, ambiguous linked
+settlements, and missing/future FX issues are recorded in the manifest/details.
+Phase 3 must reconcile source predictions with confirmed events and external
+amendments without interpreting confidence as permission to ignore obligations.
 
 Hard gate before Phase 3.
 

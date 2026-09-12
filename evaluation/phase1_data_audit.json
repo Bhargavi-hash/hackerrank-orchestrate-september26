@@ -1,0 +1,56 @@
+{
+  "blank_event_amount_count": 16,
+  "blank_events_with_image_mapping": 16,
+  "direction_distribution": {
+    "credit": 1723,
+    "debit": 23609,
+    "non_cash": 10
+  },
+  "event_type_distribution": {
+    "debt_payment": 567,
+    "expense": 20525,
+    "income": 1696,
+    "investment_purchase": 29,
+    "investment_sale": 5,
+    "investment_valuation": 10,
+    "refund": 22,
+    "subscription": 2488
+  },
+  "image_count": 16,
+  "image_files_present": 16,
+  "installment_count": 515,
+  "installment_frequencies": [
+    28,
+    30,
+    31
+  ],
+  "linked_event_count": 58,
+  "linked_event_count_unit": "rows with nonblank linked_event_id",
+  "missing_image_ids": [],
+  "overlap_count_unit": "profiles with at least one overlapping category",
+  "payment_option_count": 790,
+  "protected_reduce_overlap_count": 0,
+  "protected_stop_overlap_count": 0,
+  "row_counts": {
+    "exchange_rates.csv": 134,
+    "financial_events.csv": 25342,
+    "financial_profiles.csv": 275,
+    "images.csv": 16,
+    "messages.csv": 215,
+    "output.csv": 250,
+    "request_payment_options.csv": 790,
+    "requests.csv": 250,
+    "sample_requests.csv": 25
+  },
+  "status_distribution": {
+    "cancelled": 22,
+    "failed": 21,
+    "pending": 71,
+    "scheduled": 70,
+    "settled": 25148,
+    "unrealized": 10
+  },
+  "unique_request_count": 250,
+  "unique_request_count_including_samples": 275,
+  "unique_user_count": 275
+}
