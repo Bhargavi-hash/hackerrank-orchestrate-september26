@@ -1069,30 +1069,49 @@ Definition:
 
 Maximum amount payable on the request date before optional spending changes while preserving minimum balance for the entire 90-day horizon.
 
+### Phase 4 checkpoint clarification (explicitly approved by the user)
+
+The original `min_t(B(t) - M)` formula was ambiguous once Phase 3 began checking
+opening and intermediate balances before a cashflows-first candidate payment.
+A request-date payment does not reduce checkpoints that precede its execution.
+Example: opening 100, today's confirmed credit 100, floor 20, no later expenses.
+All-checkpoint headroom is 80, but payment 180 is safe and 180.01 is unsafe.
+The user selected: “Use payment-affected checkpoints for the actual maximum”.
+Evidence: `evaluation/phase4_capacity_details.json` (`formula_clarification`) and
+`tests/test_capacity.py::test_payment_affected_checkpoints_allow_today_credit`.
+
 Let:
 
 ```text
-B(t) = baseline projected balance
+B(c) = baseline balance at simulator checkpoint c
 M    = minimum_balance_to_keep
+C_D  = checkpoints starting at D's candidate_payment marker, through D+90
 ```
 
-Then:
+Compute:
 
 ```text
-safe_headroom = min_t(B(t) - M)
+safe_headroom = min_{c in C_D}(B(c) - M)
+
+if baseline is incomplete or any baseline checkpoint is unsafe:
+    amount_safe_to_pay = 0
+else:
+    amount_safe_to_pay = floor_to_0.01(min(requested_amount, max(0, safe_headroom)))
 ```
 
-and:
+The complete baseline safety check covers unaffected earlier checkpoints too.
+Read the simulator's ordered checkpoint stream; do not duplicate ordering rules.
+Use Decimal and round capacity down to 0.01 in every supplied currency. This is a
+benchmark precision convention, not a currency-specific unit table. Full-payment
+date probes retain the exact requested amount.
 
-```text
-amount_safe_to_pay =
-min(
-    requested_amount,
-    max(0, safe_headroom)
-)
-```
+Independently resimulate the calculated amount and the next cent when within the
+requested cap. A positive amount must pass; the next cent must fail. A zero result
+on an already-unsafe baseline does not certify the baseline safe. Incomplete future
+amounts yield zero with diagnostics; no missing amount is fabricated.
 
-Use `Decimal`.
+The approved clarification affects synthetic same-day-credit cases but changes
+none of the 25 sample headrooms in the current Phase 4 artifact.
 
 Do not ask an LLM to calculate this.
 
@@ -1114,6 +1133,19 @@ The deadline determines whether a wait plan is eligible.
 It does not truncate the capacity output.
 
 If no date within the 90-day forecast is safe, leave the field empty.
+
+Phase 4 uses the same request-centered D through D+90 inclusive horizon for every
+probe, not a new 90 days after each proposed payment. The official “next 90 days”
+wording and §§22/24 support this interpretation. No optional spending changes are
+applied, and no payment-method preference is read.
+
+With fixed exogenous flows and this fixed horizon, delaying an identical payment
+cannot lower any checkpoint balance: before its new execution it retains extra
+cash, and afterward the cumulative payment is equal. Thus safe(d) implies
+safe(d+1) under current semantics, even with recurring expenses. The implementation
+still tests every calendar date sequentially, without binary search. Incomplete
+material debit forecasts have no provably safe date.
+
 
 ---
 
@@ -2017,6 +2049,23 @@ test_earliest_full_today
 test_earliest_full_after_deadline
 test_no_safe_date
 ```
+
+### Phase 4 measurements
+
+Evidence: `evaluation/phase4_capacity_results.csv`, `phase4_capacity_report.md`,
+and `phase4_capacity_details.json`. The unchanged mean-last-5 forecast yields
+0/25 exact safe amounts and 14/25 exact earliest dates (including seven both blank).
+All positive calculated capacities independently verify, and all tested next-cent
+payments fail. Replaying the labeled safe amounts passes only 8/25 current
+forecasts. This is measured upstream forecast disagreement, not permission to
+patch capacity with request-specific rules.
+
+Median-last-3 and latest each yield 0/25 exact safe amounts and 15/25 exact dates.
+Mean-last-5 has the lowest mean request-normalized safe-amount error among these
+three. Neither alternative dominates across rows and both fields; the default is
+unchanged. Message/image uncertainty, income continuation gates, and residual
+recurrence assumptions remain explicitly listed. Recommendation logic cannot
+repair independent capacity fields.
 
 Hard gate before Phase 5.
 

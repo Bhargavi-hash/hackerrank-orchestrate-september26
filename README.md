@@ -365,3 +365,54 @@ affordability. Missing structured future amounts set `complete=False` and
 completeness remains unresolved. Exact missing FX raises an exception. The selected
 recurrence and timing defaults are provisional; see the generated report for
 conditional evidence and unresolved Phase 4+ questions.
+
+
+## Phase 4 — Capacity only
+
+Run the sample regression and the complete checks:
+
+```bash
+python3 -m evaluation.evaluate_capacity
+python3 -m unittest discover -s tests -v
+python3 -m compileall -q src tests evaluation code/main.py
+git diff --check
+```
+
+The evaluator supports `--dataset-root PATH`, `DATASET_ROOT`, and `--output-dir
+PATH` (outside the input dataset). It writes `evaluation/phase4_capacity_results.csv`,
+`phase4_capacity_report.md`, and `phase4_capacity_details.json`. Results cover only
+25 labeled samples. Financial artifacts are deterministic; measured runtime in the
+report/details varies by run. No final output or unlabeled predictions are generated.
+
+`src/planning/capacity.py` owns baseline reuse, analytical capacity, independent
+verification and sequential date search. `capacity_models.py` owns context/results
+and probe diagnostics. Continue the Phase 3 example with:
+
+```python
+from src.planning.capacity import prepare_capacity, evaluate_capacity
+
+context = prepare_capacity(
+    indexes.profile_by_user_id[request.user_id], request.request_date,
+    prepared, CurrencyConverter(data.exchange_rates),
+)
+capacity = evaluate_capacity(context, request.requested_amount)
+```
+
+The result contains `amount_safe_to_pay`, `earliest_date_for_full_payment`, baseline
+completeness/safety, analytical headroom, verification probes and diagnostics.
+`calculate_safe_amount(context, amount)` and
+`find_earliest_full_payment_date(context, amount)` are also available independently.
+Preparation is reused; the capacity layer never reloads CSVs or reconstructs recurrence.
+
+Capacity uses the actual payment-affected simulator checkpoints, with unchanged
+prior checkpoints checked separately. This explicitly approved clarification is
+recorded in architecture §25. Amounts round down to 0.01; positive capacity and
+next-cent maximality are independently simulated. Unknown future amounts return
+zero and no date. A baseline that already violates its floor cannot be repaired
+by a payment; zero capacity then does not mean the baseline is safe.
+
+The search checks D through D+90 on the original request-centered horizon and
+ignores deadlines, payment preferences and optional spending changes. No Phase 5
+recommendation, ranking or payment-plan generation is implemented. The measured
+sample mismatches and recurrence-estimator comparisons are preserved without
+request-specific production exceptions.
